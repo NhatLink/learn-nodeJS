@@ -12,7 +12,7 @@ app.set("view engine", "ejs");
 
 //route
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello World nhat linh!");
 });
 
 app.get("/link", (req, res) => {
